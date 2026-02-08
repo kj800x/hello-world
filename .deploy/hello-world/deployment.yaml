@@ -19,7 +19,6 @@ spec:
       containers:
         - name: hello-world
           image: ghcr.io/kj800x/hello-world:commit-$SHA
-          command: ["hello-world"]
           env:
             - name: PORT
               value: "8080"
