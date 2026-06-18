@@ -2,7 +2,7 @@ use poem::{get, handler, listener::TcpListener, Route, Server};
 
 #[handler]
 fn hello() -> &'static str {
-    "hello world"
+    "hello, world!"
 }
 
 #[handler]
